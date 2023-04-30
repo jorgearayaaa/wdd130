@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@font-face {
+    font-family: 'rifficbold';
+    src: url('../fonts/riffic-bold-webfont.woff2') format('woff2'),
+         url('../fonts/riffic-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+:root {
+    --primary-color: #247BA0;
+    --secondary-color: #E2E2E2;
+    --accent1-color: #0A2463;
+    --accent2-color: #247BA0;
+
+    --heading-font: 'Sigmar', serif;
+    --paragraph-font:'rifficbold', serif;
+
+    --nav-background-color: #247BA0;
+    --nav-linkcolor: #0A2463;
+    --nav-hover-link-color: #FB3640;
+    --nav-hover-background-color: #5e605e;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h1, h3, h4, h5, h6 {
+    font-family: rifficbold, 'Bradley Hand', cursive;
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 1px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
