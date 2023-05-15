@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+:root {
+    --color-one:#247BA0;
+    --color-two:#E2E2E2;
+    --color-three:#0A2463;
+    --color-four:#FB3640;
+    --color-five:#5e605e;
+    --color-six: #000;
+    
+    --font-one:'Fjalla One', sans-serif;
+}
+
+nav {
+    color: var(--color-six);
+    font-family: var(--font-one);
+}
+
+body {    
+    font-family: var(--font-one);
+    max-width: 70rem;
+	margin: 2rem auto;  
+    
+}
+
+.hero {
+    position: relative; 
+}
+
+.hero img {
+    width: 100%;
+    clip-path:inset(20% 0 30% 0);
+    margin: -170px 0 0 0;
+    
+}
+
+.title {
+    position: relative;
+    height: 70px;
+    max-width: 100%;
+    background-color: var(--color-six);
+    opacity: 0.8;
+    top: -699px;
+    border: 30px solid var(--color-six);
+}
+
+h1 {
+    text-align:center;
+    margin: 0 0 0 0;
+    color: var(--color-two);
+    font-size: 4rem;
+}
+
+.happy {
+    position: relative;
+    height: 200px;
+    width: 1050px;
+    left: 36px;
+    top: -880px;
+    font-size: 1.9rem;
+}
+
+.happy img {
+    float: right;
+    height: 150px;
+    margin: 25px 10px 10px 10px
+}
+
+.blue {
+    position: relative;
+    height: 200px;
+    width: 1060px;
+    left: 30px;
+    top: -650px;
+    font-size: 1.9rem;
+    background-color: var(--color-three);
+    opacity: 0.8; 
+}
+
+.history h2 {
+    position: relative;
+    top: -850px;
+    font-size: 5rem;
+    color: var(--color-one)
+}
+
+.paragraph-one {
+    position: relative;
+    top: -880px;
+    font-size: 1.8rem;
+    color: var(--color-three)
+}
+
+.adventure h2 {
+    position: relative;
+    font-size: 5rem;
+    top: -890px;
+    color: var(--color-one);
+}
+
+.one {
+    width: 60rem;
+    position: relative;
+    top: -890px;
+}
+
+.two {
+    width: 60rem;
+    position: relative;
+    top: -960px;
+}
+
+.three {
+    width: 60rem;
+    position: relative;
+    top: -1030px;
+}
+
+.four {
+    width: 60rem;
+    position: relative;
+    top: -1100px;
+}
+
+.four {
+    width: 60rem;
+    position: relative;
+    top: -1100px;
+}
+
+.five {
+    width: 60rem;
+    position: relative;
+    top: -1170px;
+}
+
+.one1 {
+    position: relative;
+    top: -930px;
+    font-size: 3rem;
+    color: var(--color-four);
+}
+.two2 {
+    position: relative;
+    top: -1000px;
+    font-size: 3rem;
+    color: var(--color-four);
+}
+.three3 {
+    position: relative;
+    top: -1070px;
+    font-size: 3rem;
+    color: var(--color-four);
+}
+.four4 {
+    position: relative;
+    top: -1140px;
+    font-size: 3rem;
+    color: var(--color-four);
+}
+.five5 {
+    position: relative;
+    top: -1210px;
+    font-size: 3rem;
+    color: var(--color-four);
+}
+
+.copyright {
+    font-size: 3rem;
+    position: relative;
+    margin: -1250px 0 20px 0;
+}
+
+.facebook {
+    max-width: 200px;
+}
+.instagram {
+    max-width: 200px;
+}
+.twitter {
+    max-width: 200px;
+}
