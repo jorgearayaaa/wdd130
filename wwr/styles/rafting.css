@@ -25,12 +25,14 @@ body {
 
 .hero {
     position: relative; 
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .hero img {
     width: 100%;
-    clip-path: inset(180px 0 250px 0);
-    margin: -170px 0 0 0;
+    margin: 7px 0px 30px 0px;
     
 }
 
@@ -79,14 +81,14 @@ h1 {
 
 .history h2 {
     position: relative;
-    top: -850px;
+    top: -650px;
     font-size: 5rem;
     color: var(--color-one)
 }
 
 .paragraph-one {
     position: relative;
-    top: -880px;
+    top: -680px;
     font-size: 1.8rem;
     color: var(--color-three)
 }
@@ -94,26 +96,26 @@ h1 {
 .adventure h2 {
     position: relative;
     font-size: 5rem;
-    top: -890px;
+    top: -690px;
     color: var(--color-one);
 }
 
 .one {
     width: 60rem;
     position: relative;
-    top: -890px;
+    top: -690px;
 }
 
 .two {
     width: 60rem;
     position: relative;
-    top: -960px;
+    top: -760px;
 }
 
 .three {
     width: 60rem;
     position: relative;
-    top: -1030px;
+    top: -830px;
 }
 
 .four {
@@ -125,42 +127,42 @@ h1 {
 .four {
     width: 60rem;
     position: relative;
-    top: -1100px;
+    top: -900px;
 }
 
 .five {
     width: 60rem;
     position: relative;
-    top: -1170px;
+    top: -950px;
 }
 
 .one1 {
     position: relative;
-    top: -930px;
+    top: -730px;
     font-size: 3rem;
     color: var(--color-four);
 }
 .two2 {
     position: relative;
-    top: -1000px;
+    top: -800px;
     font-size: 3rem;
     color: var(--color-four);
 }
 .three3 {
     position: relative;
-    top: -1070px;
+    top: -870px;
     font-size: 3rem;
     color: var(--color-four);
 }
 .four4 {
     position: relative;
-    top: -1140px;
+    top: -930px;
     font-size: 3rem;
     color: var(--color-four);
 }
 .five5 {
     position: relative;
-    top: -1210px;
+    top: -990px;
     font-size: 3rem;
     color: var(--color-four);
 }
@@ -168,7 +170,7 @@ h1 {
 .copyright {
     font-size: 3rem;
     position: relative;
-    margin: -1250px 0 20px 0;
+    margin: -1000px 0 20px 0;
 }
 
 .facebook {
