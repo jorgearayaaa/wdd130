@@ -1,5 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
+.home-grid {
+    display: grid;
+}
+
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+    font-size: 30px;
+}
+
+.navigation li {
+	align-content: center;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: rgb(80, 255, 71);
+	
+}
+
 :root {
     --color-one:#247BA0;
     --color-two:#E2E2E2;
@@ -14,12 +51,13 @@
 nav {
     color: var(--color-six);
     font-family: var(--font-one);
+    text-align: right;
 }
 
 body {    
     font-family: var(--font-one);
-    max-width: 70rem;
-	margin: 2rem auto;  
+    
+	  
     
 }
 
@@ -28,18 +66,25 @@ body {
     display: block;
     width: 100%;
     height: auto;
+    
+    
 }
 
 .hero img {
-    width: 100%;
-    margin: 7px 0px 30px 0px;
-    
+    width: 65%;
+    height: 25rem;
+    margin: 7px 0px 315px 294px;
+    display: grid;
+    display: flex;
+    grid-template-columns: 1fr;
+    justify-content: center;
 }
 
 .title {
     position: relative;
     height: 70px;
-    max-width: 100%;
+    max-width: 61%;
+    right: -19.61%;
     background-color: var(--color-six);
     opacity: 0.8;
     top: -699px;
@@ -56,10 +101,10 @@ h1 {
 .happy {
     position: relative;
     height: 200px;
-    width: 1050px;
-    left: 36px;
-    top: -880px;
-    font-size: 1.9rem;
+    width: 900px;
+    left: 350px;
+    top: -890px;
+    font-size: 25px;
 }
 
 .happy img {
@@ -71,114 +116,136 @@ h1 {
 .blue {
     position: relative;
     height: 200px;
-    width: 1060px;
-    left: 30px;
-    top: -650px;
+    width: 977px;
+    left: 294px;
+    top: -672px;
     font-size: 1.9rem;
     background-color: var(--color-three);
-    opacity: 0.8; 
+    opacity: 0.8;
 }
 
 .history h2 {
     position: relative;
-    top: -650px;
+    top: -900px;
     font-size: 5rem;
     color: var(--color-one)
 }
 
 .paragraph-one {
     position: relative;
-    top: -680px;
+    top: -950px;
     font-size: 1.8rem;
     color: var(--color-three)
 }
 
-.adventure h2 {
+.adventure h3 {
     position: relative;
-    font-size: 5rem;
-    top: -690px;
+    font-size: 4rem;
+    left: 200%;
+    top: -990px;
     color: var(--color-one);
+    
 }
 
 .one {
-    width: 60rem;
+    width: 15rem;
     position: relative;
     top: -690px;
 }
 
 .two {
-    width: 60rem;
+    width: 15rem;
     position: relative;
-    top: -760px;
+    top: -690px;
 }
 
 .three {
-    width: 60rem;
+    width: 15rem;
     position: relative;
-    top: -830px;
+    top: -981px;
 }
 
 .four {
-    width: 60rem;
+    width: 15rem;
     position: relative;
     top: -1100px;
 }
 
 .four {
-    width: 60rem;
+    width: 15rem;
     position: relative;
-    top: -900px;
+    top: -981px;
 }
 
 .five {
-    width: 60rem;
+    width: 15rem;
     position: relative;
-    top: -950px;
+    top: -980px;
 }
 
 .one1 {
     position: relative;
-    top: -730px;
-    font-size: 3rem;
+    top: -540px;
+    right: 9%;
+    font-size: 2rem;
     color: var(--color-four);
+    text-align: center;
 }
 .two2 {
     position: relative;
-    top: -800px;
-    font-size: 3rem;
+    top: -540px;
+    right: 9%;
+    font-size: 2rem;
     color: var(--color-four);
 }
 .three3 {
     position: relative;
-    top: -870px;
-    font-size: 3rem;
+    top: -830px;
+    right: 10%;
+    font-size: 2rem;
     color: var(--color-four);
 }
 .four4 {
     position: relative;
-    top: -930px;
-    font-size: 3rem;
+    top: -830px;
+    right: 10%;
+    font-size: 2rem;
     color: var(--color-four);
 }
 .five5 {
     position: relative;
-    top: -990px;
-    font-size: 3rem;
+    top: -991px;
+    right: 5%;
+    font-size: 2rem;
     color: var(--color-four);
 }
 
 .copyright {
-    font-size: 3rem;
+    font-size: 2rem;
     position: relative;
-    margin: -1000px 0 20px 0;
+    margin: -800px 0px 20px 200px;
 }
 
 .facebook {
-    max-width: 200px;
+    width: 200px;
+    margin: 0px 0px 0px 880px;
 }
 .instagram {
     max-width: 200px;
+    margin: 0px 0px 0px 0px;
 }
 .twitter {
     max-width: 200px;
+    margin: 0px 0px 0px 0px;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
 }
