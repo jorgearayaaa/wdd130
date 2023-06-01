@@ -7,6 +7,9 @@ body {
     color: #333;
     background: #fff;
 }
+h1 {
+    padding-left: 10.3%;
+}
 
 header {
     margin: 0 auto;
