@@ -306,3 +306,20 @@ button {
 button:hover {
     background-color:aqua;
 }
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: ;
+}
+
+.employees1 {
+    width: 15em;
+}
+
+.employees2 {
+    width: 15em;
+}
+
+.employees3 {
+    width: 13.9em;
+}
