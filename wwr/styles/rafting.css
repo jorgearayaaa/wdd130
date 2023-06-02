@@ -249,3 +249,60 @@ h1 {
 h2 {
     text-align: center;
 }
+
+.information {
+    display: grid;
+    justify-content: center;
+}
+
+footer, p{
+    display: grid;
+    justify-content: center;
+}
+
+.facebook1 {
+    width: 3em;
+
+}
+.instagram1 {
+    width: 3em;
+}
+.twitter1 {
+    width: 3em;   
+}
+
+.left, p{
+    display: grid;
+    justify-content: left;
+}
+form {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background:darkcyan;
+    display: grid;
+}
+
+label {
+    text-align: left;
+    padding-left: 1rem;
+    
+}
+
+
+button {
+    margin: 1rem;
+    background-color:orange;
+    color:black;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color:aqua;
+}
