@@ -309,7 +309,6 @@ button:hover {
 .employees {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-items: ;
 }
 
 .employees1 {
@@ -322,4 +321,16 @@ button:hover {
 
 .employees3 {
     width: 13.9em;
+}
+.employeesimages2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.employees4 {
+    width: 15em;
+}
+
+.employees5 {
+    width: 15em;
 }
